@@ -1,0 +1,93 @@
+@import "_typography";
+
+header {
+  position: relative;
+  top: 0;
+  left: 0;
+  max-height: 1098 / 1366 * 100%;
+
+  .menu {
+    width: 400px;
+  }
+
+  .menu ul {
+    list-style: none;
+    display: none;
+  }
+
+  .menu ul::after {
+    list-style: none;
+    font-size: $menu-font-size;
+    color: $menu-font-color;
+    font-family: $font-menu-header;
+  }
+
+  .menu svg {
+    position: absolute;
+    float: left;
+    top: 35px;
+    left: 128 / 1366 * 100%;
+    z-index: 20;
+  }
+
+  .social {
+    position: absolute;
+    align-content: right;
+    float: right;
+    right: 128 / 1366 * 100%;
+    top: 35px;
+    z-index: 20;
+
+    a {
+      margin-left: 24px;
+    }
+
+  }
+
+  .bg-header {
+    z-index: 1;
+  }
+
+  .description {
+    position: absolute;
+    z-index: 30;
+    align-content: center;
+    width: 100vw;
+    bottom: 237 / 1098 * 100%;
+
+    span {
+      text-align: center;
+    }
+
+    .facts {
+      margin-top: 112 / 1098 * 100%;
+
+      .facts-left {
+        display: inline-block;
+        float: left;
+        padding-left: 238.5 / 1366 * 100%;
+        
+        svg {
+          float: left;
+          margin-right: 23px;
+        }
+
+        p {
+          float: left;
+          text-align: left;
+          font-family: $font-p-facts;
+          font-size: 16px;
+          width: 293px;
+          vertical-align: middle;
+        }
+      }
+
+      .facts-right {
+        display: inline-block;
+        float: right;
+        padding-right: 238.5 / 1366 * 100%;
+      }
+    }
+
+  }
+}

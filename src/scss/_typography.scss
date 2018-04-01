@@ -1,0 +1,29 @@
+// Font Family
+@font-face {
+  font-family: 'ClearSans-Regular';
+  src: url("../../src/assets/fonts/ClearSans/ClearSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'ClearSans-Light';
+  src: url("../../src/assets/fonts/ClearSans/ClearSans-Light.ttf");
+}
+
+
+$font-regular: ClearSans-Regular;
+$font-bold: ClearSans-Regular;
+$font-menu-header: ClearSans-Regular;
+$font-p-facts: ClearSans-Light;
+
+// Font Sizes
+$h1-font-size: 50px;
+$h2-font-size: 37px;
+$menu-font-size: 32px;
+$p-font-size: 16px;
+
+
+//Font Colors
+$label-font-color: #b8b8b8;
+$h1-font-color: #a0a0a0;
+$p-font-color: #b8b8b8;
+$menu-font-color: #696969;
