@@ -1,6 +1,8 @@
 @import "_header";
+@import "_content";
 @import "_variable";
 @import "_typography";
+
 
 html {
   @include fluid-type(font-size, $minScreen, $maxScreen, $minFont, $maxFont);
@@ -9,11 +11,9 @@ html {
 body {
   margin: 0;
   padding: 0;
-  color: $p-font-color;
+  //color: $p-font-color;
   width: $width;
   height: $height;
-  background: $body-bg-color;
-  font-family: $font-regular;
   //line-height: $baseline;
 }
 //

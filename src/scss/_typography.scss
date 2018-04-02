@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Khmer|Roboto');
+
 // Font Family
 @font-face {
   font-family: 'ClearSans-Regular';
@@ -9,39 +11,72 @@
   src: url("../../src/assets/fonts/ClearSans/ClearSans-Light.ttf");
 }
 
+@font-face {
+  font-family: 'ClearSans-Medium';
+  src: url("../../src/assets/fonts/ClearSans/ClearSans-Medium.ttf");
+}
 
-$font-regular: ClearSans-Regular;
-$font-bold: ClearSans-Regular;
-$font-menu-header: ClearSans-Regular;
-$font-p-facts: ClearSans-Light;
+@font-face {
+  font-family: 'Westfalia';
+  src: url("../../src/assets/fonts/Westfalia/Westfalia-Regular.otf");
+}
 
+@font-face {
+  font-family: 'SFUIDisplay';
+  src: url("../../src/assets/fonts/SF UI Display/SF-UI-Display-Light.ttf");
+}
+
+//$font-regular: ClearSans-Regular;
+//$font-bold: ClearSans-Regular;
+//$font-menu-header: ClearSans-Regular;
+//$font-p-facts: ClearSans-Light;
+$font-h1: Westfalia;
+$font-h5: ClearSans-Medium;
+$font-p-md: ClearSans-Light;
+$font-p: ClearSans-Light;
+$font-label-light: ClearSans-Light;
+$font-label-medium: ClearSans-Medium;
+$font-subheading: ClearSans-Light;
 
 $baseline: 1.5rem;
 
 $minScreen: 20rem;
 $maxScreen: 160rem;
-$minFont: .8rem;
+$minFont: 0.8rem;
 $maxFont: 4rem;
 
-$h1: 2rem;
-$h2: 1.5rem;
-$h3: 1.25rem;
-$h4: 1rem;
-$h5: .875rem;
-
 // Font Sizes
-//$h1-font-size: 50px;
-//$h2-font-size: 37px;
-//$menu-font-size: 32px;
-$html-font-size: 0.432432432rem;
-$p-font-size: 0.432432432rem;
+$h1-font-size: 8.108108108rem;
+$h2-font-size: 5.405405405rem;
+$h3-font-size: 0.810810811rem;
+$h4-font-size: 0.810810811rem;
+$h5-font-size: 0.756756757rem;
+$subheading-font-size: 0.540540541rem;
+$menu-font-size: 0.540540541rem;
+$p-md-font-size: 0.513513514rem;
+$p-font-size: 0.486486486rem;
+$label-font-size: 0.432432432rem;
+
 
 
 //Font Colors
+$h1-font-color: #696969;
+$h2-font-color: #696969;
+$h3-font-color: #fff;
+$h4-font-color: #fff;
+$h5-font-color: #696969;
+$menu-font-color: #fff;
+$subheading-font-color: #fff;
 $label-font-color: #b8b8b8;
-$h1-font-color: #a0a0a0;
-$p-font-color: #b8b8b8;
-$menu-font-color: #696969;
+$p-md-font-color: #8C8C8C;
+$p-font-color-roboto: #b8b8b8;
+$p-font-color-ClearSans-1: #9F9F9F;
+$p-font-color-ClearSans-2: #696969;
+$label-font-color-SFUIDisplay: #6AC00D;
+$label-font-color-1: #fff;
+$label-font-color-Roboto: #8C8C8C;
+$label-font-color-2: #E0E0E0;
+$label-font-color-KhmerSangamMN: #8C8C8C;
 
 
 //$responsive-type-min-width: 320px !default;
@@ -101,7 +136,9 @@ $menu-font-color: #696969;
 //}
 
 
-
+@function strip-unit($value) {
+  @return $value / ($value * 0 + 1);
+}
 
 
 @mixin fluid-type($properties, $min-vw, $max-vw, $min-value, $max-value) {
@@ -124,6 +161,3 @@ $menu-font-color: #696969;
   }
 }
 
-@function strip-unit($value) {
-  @return $value / ($value * 0 + 1);
-}
