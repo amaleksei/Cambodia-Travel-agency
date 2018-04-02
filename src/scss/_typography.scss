@@ -15,11 +15,26 @@ $font-bold: ClearSans-Regular;
 $font-menu-header: ClearSans-Regular;
 $font-p-facts: ClearSans-Light;
 
+
+$baseline: 1.5rem;
+
+$minScreen: 20rem;
+$maxScreen: 160rem;
+$minFont: .8rem;
+$maxFont: 4rem;
+
+$h1: 2rem;
+$h2: 1.5rem;
+$h3: 1.25rem;
+$h4: 1rem;
+$h5: .875rem;
+
 // Font Sizes
-$h1-font-size: 50px;
-$h2-font-size: 37px;
-$menu-font-size: 32px;
-$p-font-size: 16px;
+//$h1-font-size: 50px;
+//$h2-font-size: 37px;
+//$menu-font-size: 32px;
+$html-font-size: 0.432432432rem;
+$p-font-size: 0.432432432rem;
 
 
 //Font Colors
@@ -27,3 +42,88 @@ $label-font-color: #b8b8b8;
 $h1-font-color: #a0a0a0;
 $p-font-color: #b8b8b8;
 $menu-font-color: #696969;
+
+
+//$responsive-type-min-width: 320px !default;
+//$responsive-type-max-width: 2732px !default;
+//
+//// Base Responsive resize function that the type one uses
+//@mixin responsive-resize($properties, $min-vw, $max-vw, $min-value, $max-value) {
+//  @each $property in $properties {
+//    #{$property}: $min-value;
+//  }
+//
+//  @media (min-width: $min-vw) {
+//    @each $property in $properties {
+//      #{$property}: calc(#{$min-value} + #{strip-unit($max-value - $min-value)} * (100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)});
+//    }
+//  }
+//
+//  @media (min-width: $max-vw) {
+//    @each $property in $properties {
+//      #{$property}: $max-value;
+//    }
+//  }
+//}
+//
+//// Type Focus helper mixin for the resize function
+//@mixin responsive-type($min-value, $max-value, $properties: font-size) {
+//  // use the global default values based on the assumption these
+//  // will be contained in a block
+//  $min-vw: $responsive-type-min-width;
+//  $max-vw: $responsive-type-max-width;
+//
+//  // check if value is using the "@" api syntax.
+//  @if ( type-of($min-value) == "string") {
+//    // So it is a string does it have a "@" symbol to break apart
+//    @if ( str-index($min-value, '@') ) {
+//      // split string helper
+//      $min-value-list : split-str($min-value, '@');
+//      // unquote the split and cast the string to a number
+//      // http://hugogiraudel.com/2014/01/15/sass-string-to-number/
+//      $min-value: to-number( unquote( nth($min-value-list, 1) ) );
+//      $min-vw: to-number( unquote( nth($min-value-list, 2) ));
+//    }
+//  }
+//
+//  // run the same checks over the $max-value
+//  @if ( type-of($max-value) == "string") {
+//    // So it is a string does it have a "@" symbol to break apart
+//    @if ( str-index($max-value, '@') ) {
+//      $max-value-list : split-str($max-value, '@');
+//      $max-value: to-number( unquote( nth($max-value-list, 1) ) );
+//      $max-vw: to-number( unquote( nth($max-value-list, 2) ));
+//    }
+//  }
+//
+//  // feed the shorter api back to the responsice resizer
+//  @include responsive-resize($properties, $min-vw, $max-vw, $min-value, $max-value);
+//}
+
+
+
+
+
+@mixin fluid-type($properties, $min-vw, $max-vw, $min-value, $max-value) {
+  & {
+    @each $property in $properties {
+      #{$property}: $min-value;
+    }
+
+    @media screen and (min-width: $min-vw) {
+      @each $property in $properties {
+        #{$property}: calc(#{$min-value} + #{strip-unit($max-value - $min-value)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}));
+      }
+    }
+
+    @media screen and (min-width: $max-vw) {
+      @each $property in $properties {
+        #{$property}: $max-value;
+      }
+    }
+  }
+}
+
+@function strip-unit($value) {
+  @return $value / ($value * 0 + 1);
+}
