@@ -32,8 +32,10 @@
 //$font-p-facts: ClearSans-Light;
 $font-h1: Westfalia;
 $font-h5: ClearSans-Medium;
+$font-price: SFUIDisplay;
 $font-p-md: ClearSans-Light;
 $font-p: ClearSans-Light;
+$font-p-medium: ClearSans-Medium;
 $font-label-light: ClearSans-Light;
 $font-label-medium: ClearSans-Medium;
 $font-subheading: ClearSans-Light;
@@ -50,13 +52,13 @@ $h1-font-size: 8.108108108rem;
 $h2-font-size: 5.405405405rem;
 $h3-font-size: 0.810810811rem;
 $h4-font-size: 0.810810811rem;
+$price-font-size: 0.810810811rem;
 $h5-font-size: 0.756756757rem;
 $subheading-font-size: 0.540540541rem;
 $menu-font-size: 0.540540541rem;
 $p-md-font-size: 0.513513514rem;
 $p-font-size: 0.486486486rem;
-$label-font-size: 0.432432432rem;
-
+$label-font-size: 0.427875557rem;
 
 
 //Font Colors
@@ -65,6 +67,7 @@ $h2-font-color: #696969;
 $h3-font-color: #fff;
 $h4-font-color: #fff;
 $h5-font-color: #696969;
+$price-font-color: #fff;
 $menu-font-color: #fff;
 $subheading-font-color: #fff;
 $label-font-color: #b8b8b8;
