@@ -9,7 +9,7 @@
   top: 0;
   right: 0;
   //heigth: auto;
-  height: 74.89019033674963vw;
+  min-height: 74.89019033674963vw;
   //display: block;
 
   img {
@@ -212,17 +212,22 @@
 .wrapper2 {
   //height: 30.01464128843338vw;
   height: 23.42606149341142vw;
+  max-width: 27.52562225475842vw;
+  min-width: 200px;
+  margin: 0 auto;
 }
 
-.contacts {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  //top: 47.80380673499268vw;
-  text-align: center;
+//.contacts {
+//  position: absolute;
+//  width: 100%;
+//  top: 0;
+//  left: 0;
+//  //top: 47.80380673499268vw;
+//  text-align: center;
+//  align-content: center;
+//}
 
-  h3 {
+  .contacts {
     position: relative;
     font-size: $h3-font-size;
     color: $h3-font-color;
@@ -231,7 +236,72 @@
     margin-top: 5.051244509516837vw;
     transform: translate(-50%, 0);
     margin-bottom: 2.342606149341142vw;
+    text-align: center;
   }
 
 
+.contact-form {
+  position: relative;
+  //max-width: 27.52562225475842vw;
+  //height: 23.42606149341142vw;
+  //overflow-x: hidden;
+  //margin: 0 auto;
+
+  //input {
+  //  width: 100%;
+  //  padding-left: 1.2445095168374818vw;
+    //margin: 8px 0;
+    //box-sizing: border-box;
+  //}
+
+  input[type=text] {
+    //position: relative;
+    width: 100%;
+    //height: 3.5871156661786237vw;
+    margin-bottom: 0.8784773060029283vw;
+    background: #000;
+    outline: blueviolet;
+    opacity: 0.43;
+    font-size: $p-font-size;
+    color: $p-font-color-ClearSans-1;
+    font-family: $font-p;
+    //padding-left: 1.2445095168374818vw;
+    border-style: none;
+    padding: 0.8052708638360175vw 2.9282576866764276vw 0.9633967789165446vw 1.2445095168374818vw;
+    box-sizing: border-box;
+  }
 }
+
+//.contact-form input[type=text] {
+//  //position: relative;
+//  width: 100%;
+//  //height: 3.5871156661786237vw;
+//  margin-bottom: 0.8784773060029283vw;
+//  background: #000;
+//  outline: blueviolet;
+//  opacity: 0.43;
+//  font-size: $p-font-size;
+//  color: $p-font-color-ClearSans-1;
+//  font-family: $font-p;
+//  //padding-left: 1.2445095168374818vw;
+//  border-style: none;
+//  padding: 0.8052708638360175vw 2.9282576866764276vw 0.9633967789165446vw 1.2445095168374818vw;
+//  box-sizing: border-box;
+//}
+
+.btn_submit {
+  width: 100%;
+  text-align: center;
+  height: 4.172767203513909vw;
+  color: $subheading-font-color;
+  font-size: $subheading-font-size;
+  background-color: #73B52C;
+  border-style: none;
+  //opacity: 1;
+}
+
+.btn_submit:hover {
+  background-color: #6AC00D;
+}
+
+
