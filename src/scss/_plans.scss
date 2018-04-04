@@ -75,9 +75,6 @@
     margin-right: 1.390922401171303vw;
     margin-bottom: 0;
     padding: 0;
-
-
-
   }
 
   .card {
@@ -119,6 +116,7 @@
     .more {
       text-align: left;
       color: $label-font-color-SFUIDisplay;
+      font-family: $font-label-SFUIDisplay;
       font-size: $label-font-size;
       float: right;
       padding-top: 1.5373352855051245vw;
