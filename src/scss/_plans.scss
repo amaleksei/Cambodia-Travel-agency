@@ -68,13 +68,16 @@
     position: relative;
     opacity: 0.65;
     //list-style: none;
-    display: block;
+    display: inline-block;
+    //display: inherit;
+    //vertical-align: bottom;
     background-color: #000;
     float: left;
     width: 20.351390922401173vw;
     margin-right: 1.390922401171303vw;
     margin-bottom: 0;
     padding: 0;
+    //bottom: 0;
   }
 
   .card {
@@ -99,7 +102,8 @@
       color: $label-font-color-1;
       font-size: $label-font-size;
       list-style: none;
-      padding: 0;
+      //padding: 0;
+      padding-left: 0;
     }
 
     .price {
@@ -129,7 +133,7 @@
     height: 24.976573939vw;
 
     .card_list {
-      margin-top: 4.411420205vw;
+      margin-top: 4.411420204978038vw;
       margin-left: 2.562225476vw;
       margin-bottom: 2.049780381vw;
       width: 14.202049780380674vw;
