@@ -38,44 +38,54 @@ header {
     height: 1.098096633vw;
   }
 
-  .social {
-    //height: 1.098096633vw;
-    position: absolute;
-    align-content: right;
-    float: right;
-    right: 9.370424597vw;
-    top: 2.562225476vw;
-    z-index: 20;
+  //.social {
+  //  //height: 1.098096633vw;
+  //  position: absolute;
+  //  align-content: right;
+  //  float: right;
+  //  right: 9.370424597vw;
+  //  top: 2.562225476vw;
+  //  z-index: 20;
+  //
+  //  a {
+  //    //height: 1.098096633vw;
+  //    display: inline-block;
+  //    position: relative;
+  //    margin-left: 1.756954612vw;
+  //    text-decoration: none;
+  //  }
+  //
+  //  .youtube, .youtube svg {
+  //    width: 1.464128843vw;
+  //    height: 0.951683748vw;
+  //  }
+  //
+  //  .facebook svg {
+  //    width: 0.512445095vw;
+  //    height: auto;
+  //    //display: none;
+  //  }
+  //
+  //  .instagram svg {
+  //    width: 1.02489019vw;
+  //    height: auto;
+  //    //display: none;
+  //  }
+  //
+  //  .twitter svg {
+  //    width: 0.805270864vw;
+  //    height: auto;
+  //    display: none;
+  //  }
+  //}
 
-    a {
-      //height: 1.098096633vw;
-      display: inline-block;
-      position: relative;
-      margin-left: 1.756954612vw;
-      text-decoration: none;
+  .header__social {
+    .social-links {
+      margin: 2.562225475841874vw 9.370424597364568vw 0 0.7320644216691069vw;
     }
 
-    .youtube, .youtube svg {
-      width: 1.464128843vw;
-      height: 0.951683748vw;
-    }
-
-    .facebook svg {
-      width: 0.512445095vw;
-      height: auto;
-      //display: none;
-    }
-
-    .instagram svg {
-      width: 1.02489019vw;
-      height: auto;
-      //display: none;
-    }
-
-    .twitter svg {
-      width: 0.805270864vw;
-      height: auto;
-      display: none;
+    li {
+      margin-right: 1.7723279648609078vw;
     }
   }
 

@@ -76,12 +76,11 @@ footer {
     position: relative;
     list-style: none;
     padding: 0;
-    margin: 2.4158125915080526vw 7.320644216691069vw 2.342606149341142vw 0.7320644216691069vw;
     right: 0;
 
     li {
       float: left;
-      margin-right: 2.1595900439238656vw;
+      //margin-right: 2.1595900439238656vw;
 
       a {
         display:inline-block;
@@ -92,16 +91,25 @@ footer {
           display: block;
         }
       }
-
-      .youtube #Final-design, .facebook #Final-design,
-      .instagram #Final-design, .twitter #Final-design {
-        //height: 1.0248901903367496vw;
-        fill: #fff;
-      }
     }
 
     li:last-child {
       margin-right: 0;
+    }
+  }
+}
+
+.footer__social {
+  .social-links {
+    margin: 2.4158125915080526vw 7.320644216691069vw 2.342606149341142vw 0.7320644216691069vw;
+  }
+
+  li {
+    margin-right: 2.1595900439238656vw;
+
+    .youtube #Final-design, .facebook #Final-design,
+    .instagram #Final-design, .twitter #Final-design {
+      fill: #fff;
     }
   }
 }
