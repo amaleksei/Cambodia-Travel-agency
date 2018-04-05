@@ -88,11 +88,12 @@
 
   .container_bottom {
     display: table-cell;
-    //vertical-align: bottom;
+    vertical-align: bottom;
     // position: absolute;
     // bottom: 0;
     margin: 0;
-    padding: 0;
+    //padding: 0;
+    padding-bottom: 0;
     //bottom: 0;
   }
 
@@ -101,7 +102,7 @@
     position: relative;
     opacity: 0.65;
     //list-style: none;
-    display: inline-block;
+    display: table;
     //display: inherit;
     //vertical-align: bottom;
     background-color: #000;
