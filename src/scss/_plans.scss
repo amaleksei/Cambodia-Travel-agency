@@ -29,6 +29,7 @@
     height: 12.664714494875549vw;
     display: block;
     z-index: 99;
+    margin-bottom: 4.538799414348463vw;
 
 
     h3 {
@@ -52,7 +53,10 @@
 
 .wrapper1 {
   //height: 25.475841874vw;
-  height: 30.01464128843338vw;
+  //min-height:
+  //margin-top: 4.538799414348463vw;
+  min-height: 25.475841874vw;
+  //min-height: 25.475841874vw;
 }
 
 .plans_container {
@@ -60,10 +64,9 @@
   display: block;
   //height: 0;
   //background: #9f9f9f;
-  height: 25.475841874vw;
+  height: inherit;
   width: 85.651537335vw;
   //margin-top: 17.276720351vw;
-  margin-top: 4.538799414348463vw;
   left: 7.174231332vw;
   bottom: 0;
   //z-index: 1;
@@ -161,6 +164,7 @@
       padding-top: 1.5373352855051245vw;
       margin-right: 2.4158125915080526vw;
       padding-bottom: 2.1903367496339676vw;
+      vertical-align: bottom;
     }
   }
 
@@ -168,7 +172,7 @@
     height: 24.976573939vw;
 
     .card_list {
-      //margin-top: 4.411420204978038vw;
+      margin-top: 4.411420204978038vw;
       margin-left: 2.562225476vw;
       margin-bottom: 2.049780381vw;
       width: 14.202049780380674vw;
@@ -179,7 +183,7 @@
     height: 22.10688140556369vw;
 
     .card_list {
-      //margin-top: 3.001464128843338vw;
+      margin-top: 3.001464128843338vw;
       margin-left: 2.562225476vw;
       margin-bottom: 2.049780381vw;
       width: 14.202049780380674vw;
@@ -190,7 +194,7 @@
     height: 18.887994143484626vw;
 
     .card_list {
-      //margin-top: 4.251830161054173vw;
+      margin-top: 4.251830161054173vw;
       margin-left: 2.562225476vw;
       margin-bottom: 2.049780381vw;
       width: 13.396778916544655vw;
@@ -201,7 +205,7 @@
     height: 15.519765739385067vw;
 
     .card_list {
-      //margin-top: 2.4158125915080526vw;
+      margin-top: 2.4158125915080526vw;
       margin-left: 2.562225476vw;
       margin-bottom: 2.049780381vw;
       width: 12.811127379209369vw;
@@ -218,7 +222,7 @@
   height: 23.42606149341142vw;
   max-width: 27.52562225475842vw;
   min-width: 200px;
-  margin: 0 auto;
+  margin: 5.051244509516837vw auto;
 }
 
 //.contacts {
@@ -237,10 +241,11 @@
     color: $h3-font-color;
     left: 50%;
     //top: 8.272327965vw;
-    margin-top: 5.051244509516837vw;
+    //margin-top: 5.051244509516837vw;
     transform: translate(-50%, 0);
     margin-bottom: 2.342606149341142vw;
     text-align: center;
+    margin-top: 0;
   }
 
 
