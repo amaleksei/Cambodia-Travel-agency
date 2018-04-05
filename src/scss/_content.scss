@@ -21,18 +21,19 @@
   width: 100%;
   left: 0;
   top: 0;
-  right: 0;
+  //right: 0;
   z-index: 99;
   //align-content: center;
   //align-items: center;
 
   h1 {
-    //position: absolute;
-    position: relative;
-    top: 4.978038067vw;
+    position: absolute;
+    //position: relative;
+    //top: 4.978038067vw;
+    padding-top: 4.978038067349927vw;
     text-align: center;
     //left: 50%;
-    //width: 100%;
+    width: 100%;
     //transform: translate(-50%, 0);
     font-size: $h2-font-size;
     color: rgba($h1-font-color, 0.08);
@@ -42,10 +43,8 @@
 
   .points {
     position: relative;
-    //top: 16.398243045vw;
-    padding-top: 16.398243045vw;
+    padding-top: 16.398243045387993vw;
     width: 100%;
-    //height: 100vh;
     z-index: 99;
 
     .phno {
