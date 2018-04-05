@@ -50,49 +50,50 @@
 
     .phno {
       position: relative;
-      display: block;
+      display: inline-block;
       top: 0;
-      clear: both;
+      //clear: both;
       width: 100%;
       min-height: 33.308931186vw;
+      float: left;
       //overflow: hidden;
 
       .phno-content {
         position: relative;
-        left: 7.247437775vw;
+        display: block;
+        margin-left: 7.247437775vw;
+        max-width: 35.944363104vw;
+        //clear: both;
+        margin-right: 7.603221083455344vw;
+        padding: 0;
+        float: left;
 
         h5 {
-          display: block;
-          //width: 100%;
           font-family: $font-h5;
           font-size: $h5-font-size;
           color: $h5-font-color;
-          text-align: left;
-          margin: 0;
-          z-index: 40;
+          margin-top: 0;
+          margin-bottom: 0.805270864vw;
         }
 
         p {
-          display: block;
           text-align: left;
           font-family: $font-p;
           font-size: $p-font-size;
           color: $p-md-font-color;
-          min-width: 273.632px;
+          //min-width: 20.031625183016104vw;
           max-width: 35.944363104vw;
           margin: 0;
-          margin-top: 0.805270864vw;
-          z-index: 40;
+          padding: 0;
         }
       }
 
       .phno-img {
-        position: absolute;
-        right: 7.111273792vw;
-        marigin: 0;
+        display: inline-block;
+        position: relative;
+        margin-right: 7.111273792vw;
+        margin-top: 6.515373353vw;
         padding: 0;
-        z-index: 40;
-        top: 6.515373353vw;
 
         img {
           display: block;
