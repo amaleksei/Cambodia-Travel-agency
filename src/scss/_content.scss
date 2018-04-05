@@ -89,7 +89,7 @@
       .phno-img {
         display: inline-block;
         position: relative;
-        margin-right: 7.111273792vw;
+        //margin-right: 7.111273792vw;
         margin-top: 6.515373353vw;
         padding: 0;
 
@@ -97,58 +97,60 @@
           display: block;
           width: 42.020497804vw;
           height: 26.866764275vw;
+          margin: 0;
+          padding: 0;
         }
       }
     }
 
     .Kaoh {
       position: relative;
-      display: block;
-      margin-top: 14.275256223vw;
+      display: inline-block;
+      margin-top: 14.421669106881405vw;
       top: 0;
       width: 100%;
       min-height: 22.254758419vw;
-      clear: both;
-
-
+      float: right;
 
       .Kaoh-content {
-        position: absolute;
-        right: 8.711566618vw;
-        top: 2.415812592vw;
-
+        position: relative;
+        display: block;
+        margin-right: 8.711566618vw;
+        margin-top: 2.415812592vw;
+        padding: 0;
+        float: right;
+        margin-left: 16.03221083455344vw;
 
         h5 {
-          display: block;
-          //width: 100%;
           font-family: $font-h5;
           font-size: $h5-font-size;
           color: $h5-font-color;
-          text-align: left;
-          margin: 0;
+          margin-top: 0;
           z-index: 40;
+          margin-bottom: 0.585651537vw;
         }
 
         p {
-          display: block;
-          text-align: left;
+          //display: block;
+          //text-align: left;
           font-family: $font-p;
           font-size: $p-font-size;
           color: $p-md-font-color;
           min-width: 273.632px;
           max-width: 33.308931186vw;
           margin: 0;
-          margin-top: 0.585651537vw;
-          z-index: 40;
+          padding: 0;
         }
       }
 
       .Kaoh-img {
-        position: absolute;
-        left: 7.174231332vw;
-        marigin: 0;
+        display: inline-block;
+        position: relative;
+        //left: 7.174231332vw;
+        margin: 0;
         padding: 0;
         z-index: 40;
+        float: right;
 
 
         img {
