@@ -152,7 +152,6 @@
         z-index: 40;
         float: right;
 
-
         img {
           display: block;
           width: 34.773060029vw;
@@ -172,8 +171,8 @@
       float: left;
 
       .Koh-content {
-        display: block;
         position: relative;
+        display: block;
         margin-left: 6.954612006vw;
         margin-top: 1.244509517vw;
         float: left;
@@ -184,8 +183,8 @@
           font-family: $font-h5;
           font-size: $h5-font-size;
           color: $h5-font-color;
-          margin: 0;
-          z-index: 40;
+          margin-top: 0;
+          margin-bottom: 0.732064422vw;
         }
 
         p {
@@ -193,7 +192,8 @@
           font-size: $p-font-size;
           color: $p-md-font-color;
           max-width: 27.232796486vw;
-          margin-top: 0.732064422vw;
+          margin: 0;
+          padding: 0;
         }
       }
 
