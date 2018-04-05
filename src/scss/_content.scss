@@ -210,83 +210,56 @@
 
     .Popokvil {
       position: relative;
-      display: block;
+      display: inline-block;
       margin-top: 11.420204978vw;
       clear: both;
       width: 100%;
       min-height: 33.308931186vw;
-      //align-content: left;
-      //align-items: left;
-      //float: left;
-
-      .Popokvil-img {
-        position: absolute;
-        display: inline-block;
-        top: 0;
-        //float: left;
-        width: 34.773060029vw;;
-        left: 7.174231332vw;
-        z-index: 30;
-        //top: 0;
-        //overflow: hidden;
-
-
-        img {
-          //float: left;
-          display: inline-block;
-          //overflow: hidden;
-          //clear: both;
-          width: 34.919472914vw;
-          height: 21.815519766vw;
-        }
-      }
-
 
       .Popokvil-content {
-        position: absolute;
-        display: inline-block;
-        right: 27.598828697vw;
-        top: 3.294289898vw;
-        //float: right;
-        //clear-side: right;
-        //left: 0px;
-        //width: 26.207906296vw;
-        margin: 0;
-        z-index: 40;
-
+        position: relative;
+        display: block;
+        margin-right: 27.598828697vw;
+        margin-top: 3.294289898vw;
+        max-width: 27.232796486vw;
+        float: right;
+        margin-left: 3.074670571010249vw;
 
         h5 {
-          //display: inline-block;
-          //width: 100%;
           font-family: $font-h5;
           font-size: $h5-font-size;
           color: $h5-font-color;
-          text-align: left;
-          margin: 0;
-          z-index: 40;
+          margin-top: 0;
+          margin-bottom: 1.02489019vw;
         }
 
         p {
-          //display: inline-block;
-          //clear: right;
-          //overflow: hidden;
-          text-align: left;
           font-family: $font-p;
           font-size: $p-font-size;
           color: $p-md-font-color;
-          min-width: 273.632px;
           max-width: 27.232796486vw;
           margin: 0;
-          margin-top: 1.02489019vw;
-          z-index: 40;
+          padding: 0;
         }
       }
 
+      .Popokvil-img {
+        position: relative;
+        display: inline-block;
+        width: 34.773060029vw;;
+        margin-left: 7.174231332vw;
+        padding: 0;
+        float: right;
 
+        img {
+          display: block;
+          width: 34.919472914vw;
+          height: 21.815519766vw;
+          margin: 0;
+          padding: 0;
+        }
+      }
     }
-
-
-
   }
 
 
