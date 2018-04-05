@@ -22,7 +22,7 @@
   }
 }
 
-.conteiner {
+.container {
     position: relative;
     width: 100%;
     //height: 2.9282576866764276vw;
@@ -55,7 +55,7 @@
   height: 30.01464128843338vw;
 }
 
-.plans_conteiner {
+.plans_container {
   position: absolute;
   display: block;
   //height: 0;
@@ -65,6 +65,7 @@
   //margin-top: 17.276720351vw;
   margin-top: 4.538799414348463vw;
   left: 7.174231332vw;
+  bottom: 0;
   //z-index: 1;
   //float: left;
   //overflow: hidden;
@@ -85,13 +86,14 @@
     }
   }
 
-  .conteiner_bottom {
+  .container_bottom {
     display: table-cell;
-    vertical-align: bottom;
+    //vertical-align: bottom;
     // position: absolute;
     // bottom: 0;
     margin: 0;
     padding: 0;
+    //bottom: 0;
   }
 
   .card {
@@ -135,6 +137,7 @@
       list-style: none;
       //padding: 0;
       padding-left: 0;
+      margin: 0;
     }
 
     .price {
@@ -164,7 +167,7 @@
     height: 24.976573939vw;
 
     .card_list {
-      margin-top: 4.411420204978038vw;
+      //margin-top: 4.411420204978038vw;
       margin-left: 2.562225476vw;
       margin-bottom: 2.049780381vw;
       width: 14.202049780380674vw;
@@ -175,7 +178,7 @@
     height: 22.10688140556369vw;
 
     .card_list {
-      margin-top: 3.001464128843338vw;
+      //margin-top: 3.001464128843338vw;
       margin-left: 2.562225476vw;
       margin-bottom: 2.049780381vw;
       width: 14.202049780380674vw;
@@ -186,7 +189,7 @@
     height: 18.887994143484626vw;
 
     .card_list {
-      margin-top: 4.251830161054173vw;
+      //margin-top: 4.251830161054173vw;
       margin-left: 2.562225476vw;
       margin-bottom: 2.049780381vw;
       width: 13.396778916544655vw;
@@ -197,7 +200,7 @@
     height: 15.519765739385067vw;
 
     .card_list {
-      margin-top: 2.4158125915080526vw;
+      //margin-top: 2.4158125915080526vw;
       margin-left: 2.562225476vw;
       margin-bottom: 2.049780381vw;
       width: 12.811127379209369vw;
