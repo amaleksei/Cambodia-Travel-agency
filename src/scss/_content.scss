@@ -126,17 +126,13 @@
           font-size: $h5-font-size;
           color: $h5-font-color;
           margin-top: 0;
-          z-index: 40;
           margin-bottom: 0.585651537vw;
         }
 
         p {
-          //display: block;
-          //text-align: left;
           font-family: $font-p;
           font-size: $p-font-size;
           color: $p-md-font-color;
-          min-width: 273.632px;
           max-width: 33.308931186vw;
           margin: 0;
           padding: 0;
@@ -146,16 +142,16 @@
       .Kaoh-img {
         display: inline-block;
         position: relative;
-        //left: 7.174231332vw;
         margin: 0;
         padding: 0;
-        z-index: 40;
         float: right;
 
         img {
           display: block;
           width: 34.773060029vw;
           height: 22.254758419vw;
+          margin: 0;
+          padding: 0;
         }
       }
     }
