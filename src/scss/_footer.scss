@@ -1,25 +1,30 @@
+@import "typography";
+
 footer {
   position: relative;
-  bottom: 0;
-  //top: 0;
   background-color: #D48630;
   height: 6.222547584187408vw;
   width: 100%;
   z-index: 99;
+  margin: 0;
+  padding: 0;
 }
 
-.footer-wrapper {
-  //position: relative;
-  //top: 0;
-  //left: 0;
-}
+//.footer-wrapper {
+//  //position: relative;
+//  //top: 0;
+//  //left: 0;
+//  width: 100%;
+//  height: 6.222547584187408vw;
+//}
 
 
 .footer-nav {
-  position: absolute;
+  display: inline-block;
+  position: relative;
   top: 0;
   left: 0;
-  vertical-align: middle;
+  //vertical-align: middle;
 
 
   .footer-menu {
@@ -27,8 +32,8 @@ footer {
     list-style: none;
     font-size: $menu-font-size;
     font-family: $font-menu-footer;
-    margin: 1.903367496339678vw 0.7320644216691069vw 2.342606149341142vw 7.320644216691069vw;
     padding: 0;
+    margin: 1.903367496339678vw 0.7320644216691069vw 2.342606149341142vw 7.320644216691069vw;
 
     li {
       float: left;
@@ -66,11 +71,13 @@ footer {
 }
 
 .social {
-  position: absolute;
+  position: relative;
+  display: inline-block;
   right: 0;
   margin: 0;
   padding: 0;
   font-size: $label-font-size;
+  float: right;
 
   .social-links {
     position: relative;
