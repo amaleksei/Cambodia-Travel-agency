@@ -163,65 +163,51 @@
 
     .Koh {
       position: relative;
-      display: block;
+      display: inline-block;
       margin-top: 15.446559297vw;
       top: 0;
       clear: both;
       width: 100%;
       min-height: 21.815519766vw;
-      //float: left;
-
-
+      float: left;
 
       .Koh-content {
-        //display: inline-block;
+        display: block;
         position: relative;
-        left: 6.954612006vw;
-        top: 1.244509517vw;
+        margin-left: 6.954612006vw;
+        margin-top: 1.244509517vw;
         float: left;
-        //clear-side: right;
-        //width: 26.207906296vw;
-        margin: 0;
-        z-index: 40;
-
+        max-width: 26.207906295754025vw;
+        margin-right: 3.074670571010249vw;
 
         h5 {
-          //display: block;
-          //width: 100%;
           font-family: $font-h5;
           font-size: $h5-font-size;
           color: $h5-font-color;
-          text-align: left;
           margin: 0;
           z-index: 40;
         }
 
         p {
-          display: block;
-          //clear: right;
-          //overflow: hidden;
-          text-align: left;
           font-family: $font-p;
           font-size: $p-font-size;
           color: $p-md-font-color;
-          min-width: 273.632px;
           max-width: 27.232796486vw;
           margin-top: 0.732064422vw;
-          z-index: 40;
         }
       }
 
       .Koh-img {
-        position: absolute;
-        display: block;
-        right: 28.696925329vw;
-        z-index: 30;
-        top: 0;
-
+        position: relative;
+        display: inline-block;
+        padding: 0;
 
         img {
+          display: block;
           width: 34.773060029vw;
           height: 22.254758419vw;
+          margin: 0;
+          padding: 0;
         }
       }
     }
