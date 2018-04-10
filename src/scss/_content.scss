@@ -275,4 +275,82 @@
     width: 100%;
     z-index: 1;
   }
-}
+
+  .route-img {
+    position: absolute;
+    //top: 900px;
+    top: 41.874084919472914vw;
+    right: 11.932650073206442vw;
+    width: 57.10102489019033vw;
+    height: 106.80819912152269vw;
+    z-index: 10;
+  }
+
+  ////.route {
+    .city-name {
+      display: block;
+      width: 10.052708638360176vw;
+      position: relative;
+      text-align: center;
+      float: left;
+      //max-width: 8.052708638360176vw;
+
+      .city-name__default {
+        font-size: $p-font-size;
+        font-family: Roboto;
+        line-height: 1.166666667;
+        color: $label-font-color-Roboto;
+        margin: 0;
+      }
+
+      .city-name__original {
+        font-size: $p-md-font-size;
+        font-family: Khmer;
+        color: $label-font-color-KhmerSangamMNmedium;
+        margin: 0;
+        line-height: 1.947368421;
+      }
+
+    }
+
+    .phno-route {
+      display: inline-block;
+      width: 10.41874084919473vw;
+      height: 6.002928257686676vw;
+      position: relative;
+      margin-top: 50px;
+      //padding: 100px;
+      //top: -1400px;
+      margin-left: 500px;
+      right: 0;
+      //max-width: 8.41874084919473vw;
+      //max-height: 6.002928257686676vw;
+      float: left;
+
+
+    }
+
+    .dot {
+      height: 24px;
+      width: 24px;
+      //background-color: #7ED321;
+      border-radius: 50%;
+      display: inline-block;
+      border: 6px solid #7ED321;
+      margin: 0;
+      padding: 0;
+    }
+    //
+    //.dot::before {
+    //  position: absolute;
+    //  margin-top: 1.5px;
+    //  margin-left: 1.5px;
+    //  content: '';
+    //  width: 21px;
+    //  height: 21px;
+    //  background-color: #fff;
+    //  border-radius: 50%;
+    //}
+  }
+
+
